@@ -11,13 +11,15 @@
         </div>
     </div>
 </section>
-{% for collection in site.collections %}
+<div class="container">
 
+{% for collection in site.collections %}
 <p> {{collection.name}} </p>
 {% endfor %}
+</div>
 <section id="pijamaportfolio">
-		{% for collection in site.collections %}
-		{% if collection.name == page.title}
+{% for collection in site.collections %}
+	{% if collection.name == page.title}
            {% for pijama in collection %}
               <div class="col-lg-4 col-sm-6">
                   <a href="/{{collection.name}}/{{ pijama.name }}" class="portfolio-box">
