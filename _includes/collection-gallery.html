@@ -2,7 +2,7 @@
 <div class="container-fluid">
         <div class="row no-gutter">
 		{% for collection in site.collections %}
-               {% if collection.name == page.title}
+               {% if collection.name == page.title %}
               <div class="col-lg-4 col-sm-6">
                   <a href="{{ collection.main_page }}" class="portfolio-box">
                       <img src="{{ collection.main_image }}" class="img-responsive" alt="">
