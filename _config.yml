@@ -20,7 +20,7 @@ collections:
     output: true
     main_image: /img/portfolio/mainmujeres.png
     main_page: /mujeres/
-    name: Mujeres
+    name: mujeres
     permalink: /mujeres/:name
   -2hombres:
     output: true

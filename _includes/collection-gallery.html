@@ -2,9 +2,9 @@
     <div class="container-fluid">
         <div class="row no-gutter">
 	    {% assign collectionvar = 'site.'| append: page.col_name%}
-	    {{collectionvar}}
+	    <h2 class="section-heading">{{page.title | Capitalize}}</h2>
 
-           {% for pijama in site.1mujeres %}
+           {% for pijama in site.mujeres %}
               <div class="col-lg-4 col-sm-6">
                   <a href="/{{page.title}}/{{ pijama.name }}" class="portfolio-box">
                       <img src="img/portfolio/{{page.title}}/{{ pijama.main_image }}" class="img-responsive" alt="">
