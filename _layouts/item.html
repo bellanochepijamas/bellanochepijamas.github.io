@@ -2,16 +2,16 @@
 <html lang="en">
 
 {% include head.html %}
-<header>
-    <div class="header-content">
-      {{page.title}}
-    </div>
-</header>
+
 <body id="page-top">
   {% include nav.html %}
-  <h1> {{title}} </h1>
+  <header>
+      <div class="header-content">
+        {{page.title}}
+      </div>
+  </header>
     <div class="container-fluid">
-      <img src="{{ main_image }}" class="img-responsive" alt="">
+      <img src="{{ page.main_image }}" class="img-responsive" alt="">
     </div>
 </body>
   {% include scripts.html %}

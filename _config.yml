@@ -15,25 +15,25 @@ markdown: kramdown
 
 collections:
   -mujeres:
-    main_image: /img/mainmujeres.jpg
+    main_image: /img/portfolio/mainmujeres.jpg
     main_page: /mujeres.html
     name: Mujeres
     output: true
     permalink: /mujeres/:name
   -hombres:
-    main_image: /img/mainhombres.jpg
+    main_image: /img/portfolio/mainhombres.jpg
     main_page: /hombres.html
     name: Hombres
     output: true
     permalink: /hombres/:name
   -ninos:
-    main_image: /img/mainninos.jpg
+    main_image: /img/portfolio/mainninos.jpg
     main_page: /ninos.html
     name: Niños
     output: true
     permalink: /ninos/:name
   -ropadecama:
-    main_image: /img/mainropacama.jpg
+    main_image: /img/portfolio/mainropacama.jpg
     main_page: /ropacama.html
     name: Ropa de Cama
     output: true
