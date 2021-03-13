@@ -1,6 +1,6 @@
 ---
 layout: maincollection
-title: mujeres
+title: Mujeres
 permalink: /mujeres/
 col_name: 1mujeres
 ---
