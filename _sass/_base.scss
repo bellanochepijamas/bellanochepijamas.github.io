@@ -155,14 +155,14 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('/img/header.jpg');
     text-align: center;
     color: white;
     .header-content {
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
-        width: 100%;
+        width: 90%;
         .header-content-inner {
             h1 {
                 font-weight: 700;
@@ -181,7 +181,7 @@ header {
             }
         }
     }
-    @media (min-width: 768px) {
+    @media (min-width: 300px) {
         min-height: 100%;
         .header-content {
             position: absolute;
@@ -348,4 +348,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
