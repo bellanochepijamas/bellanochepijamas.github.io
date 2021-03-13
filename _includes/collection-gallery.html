@@ -1,10 +1,10 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
-	    {{site.collections[page.title]}}
-	    {{site.|join page.title}}
+	    {% assign collectionvar = 'site.'| append: page.title%}
+	    {{collectionvar}}
 
-           {% for item in site.collections[{{page.title}}] %}
+           {% for item in collectionvar %}
               <div class="col-lg-4 col-sm-6">
                   <a href="/{{page.col_name}}/{{ item.name }}" class="portfolio-box">
                       <img src="img/portfolio/{{page.title}}/{{ item.main_image }}" class="img-responsive" alt="">
