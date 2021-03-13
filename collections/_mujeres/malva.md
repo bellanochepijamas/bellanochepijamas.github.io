@@ -1,6 +1,6 @@
 ---
 layout: item
 title: Malva
-name: Malva
+name: malva
 main_image: malva.png
 ---

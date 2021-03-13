@@ -16,6 +16,7 @@ instagram_username: bellanochepijamas
 markdown: kramdown
 
 collections:
+  collections_dir: collections
   -mujeres:
     main_image: /img/portfolio/mainmujeres.png
     main_page: /mujeres/
@@ -40,5 +41,3 @@ collections:
     name: Ropa de Cama
     output: true
     permalink: /ropacama/:name
-
-collections_dir: collections
