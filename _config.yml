@@ -1,7 +1,7 @@
 remote_theme:  volny / creative-theme-jekyll
 # Site settings
 title: Bella Noche Pijamas
-email: bellanochepijamas at gmail.com
+email: bellanochepijamas@gmail.com
 instagram_username: bellanochepijamas
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
