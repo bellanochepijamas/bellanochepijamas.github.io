@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 {% include head.html %}
 
 <body id="page-top">
   {% include nav.html %}
   <header>
-      <div class="header-content">
-        {{page.title}}
+    <div class="header-content">
+      <div class="header-content-inner">
+          <p style="padding-top:100pt"> </p>
+          <p>  {{page.title}}</p>
       </div>
+    </div>
   </header>
   {% include collection_gallery.html %}
   {% include contact.html %}
