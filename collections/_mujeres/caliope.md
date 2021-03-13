@@ -1,6 +1,6 @@
 ---
 layout: item
 title: Caliope
-name: Caliope
+name: caliope
 main_image: caliope.png
 ---
