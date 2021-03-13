@@ -2,20 +2,22 @@ remote_theme:  volny / creative-theme-jekyll
 # Site settings
 title: Bella Noche Pijamas
 email: bellanochepijamas@gmail.com
-instagram_username: bellanochepijamas
+
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
 
+whatsapp_link:
+whatsapp: BellaNoche
+whatsapp_link: https://wa.me/573103076859
+instagram_username: bellanochepijamas
 # Build settings
 markdown: kramdown
 
 collections:
   -mujeres:
-    main_image: /img/portfolio/mainmujeres.jpeg
+    main_image: /img/portfolio/mainmujeres.png
     main_page: /mujeres/
     name: Mujeres
     output: true
