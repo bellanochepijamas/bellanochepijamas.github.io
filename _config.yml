@@ -1,4 +1,3 @@
-remote_theme:  volny / creative-theme-jekyll
 # Site settings
 title: Bella Noche Pijamas
 email: bellanochepijamas@gmail.com
@@ -16,27 +15,27 @@ instagram_username: bellanochepijamas
 markdown: kramdown
 
 collections:
-  -1mujeres:
+  1mujeres:
+    output: true
     main_image: /img/portfolio/mainmujeres.png
     main_page: /mujeres/
     name: Mujeres
-    output: true
     permalink: /mujeres/:name
-  -2hombres:
+  2hombres:
+    output: true
     main_image: /img/portfolio/mainhombres.jpeg
     main_page: /hombres/
     name: Hombres
-    output: true
     permalink: /hombres/:name
-  -3ninos:
+  3ninos:
+    output: true
     main_image: /img/portfolio/mainninos.jpeg
     main_page: /ninos/
-    name: NiÃ±os
-    output: true
+    name: Niños
     permalink: /ninos/:name
-  -4ropadecama:
+  4ropadecama:
+    output: true
     main_image: /img/portfolio/mainropacama.jpeg
     main_page: /ropacama/
     name: Ropa de Cama
-    output: true
     permalink: /ropacama/:name
