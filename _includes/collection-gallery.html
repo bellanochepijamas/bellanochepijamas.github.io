@@ -4,14 +4,14 @@
 	    {% assign collectionvar = 'site.'| append: page.col_name%}
 	    {{collectionvar}}
 
-           {% for item in site.1mujeres %}
+           {% for pijama in site.1mujeres %}
               <div class="col-lg-4 col-sm-6">
-                  <a href="/{{page.title}}/{{ item.name }}" class="portfolio-box">
-                      <img src="img/portfolio/{{page.title}}/{{ item.main_image }}" class="img-responsive" alt="">
+                  <a href="/{{page.title}}/{{ pijama.name }}" class="portfolio-box">
+                      <img src="img/portfolio/{{page.title}}/{{ pijama.main_image }}" class="img-responsive" alt="">
                       <div class="portfolio-box-caption">
                           <div class="portfolio-box-caption-content">
                               <div class="project-category text-faded">
-                                  {{ item.name }}
+                                  {{ pijama.name }}
                               </div>
                           </div>
                       </div>
