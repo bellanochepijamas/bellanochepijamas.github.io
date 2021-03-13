@@ -32,7 +32,7 @@ collections:
     output: true
     main_image: /img/portfolio/mainninos.jpeg
     main_page: /ninos/
-    name: Niños
+    name: Kids
     permalink: /ninos/:name
   -4ropadecama:
     output: true
