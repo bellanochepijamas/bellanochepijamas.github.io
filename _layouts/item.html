@@ -4,13 +4,15 @@
 {% include head.html %}
 <header>
     <div class="header-content">
-      {{title}}
+      {{page.title}}
     </div>
 </header>
 <body id="page-top">
   {% include nav.html %}
   <h1> {{title}} </h1>
-  <img src="{{ main_image }}" class="img-responsive" alt="">
+    <div class="container-fluid">
+      <img src="{{ main_image }}" class="img-responsive" alt="">
+    </div>
 </body>
-
+  {% include scripts.html %}
 </html>
