@@ -7,7 +7,8 @@
                 {% assign homelink = current_col.main_page %}
                 {% assign pijamalink = pijama.main_image %}
                 {% assign pijamaimg = homelink | append: pijamalink %}
-                  <a href="{{ pijama.relative_path }}" class="portfolio-box">
+                {{pijamaimg}}
+                  <a href="{{ pijama.url }}" class="portfolio-box">
                       <img src="/img/portfolio{{ pijamaimg }}" class="img-responsive" alt="">
                       <div class="portfolio-box-caption">
                           <div class="portfolio-box-caption-content">
