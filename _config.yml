@@ -17,12 +17,12 @@ markdown: kramdown
 
 collections:
   -1mujeres:
-    output: true
+    output: false
     main_image: /img/portfolio/mainmujeres.png
     main_page: /mujeres/
     name: Mujeres
   -2hombres:
-    output: true
+    output: false
     main_image: /img/portfolio/mainhombres.jpeg
     main_page: /hombres/
     name: Hombres
