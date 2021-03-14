@@ -8,7 +8,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Ir Arriba</a>
+            <% assign collection = page.collection %>
+            <a class="navbar-brand page-scroll" href="{{collection.main_page}}">Volver a {{collection.name}}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
