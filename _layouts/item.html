@@ -8,10 +8,14 @@
   <header>
     <div class="header-content">
         <div class="header-content-inner">
+          <p style="padding-top:200pt"> </p>
+          <p></p>
+          <a href="#content" class="btn btn-primary btn-xl page-scroll">Ver {{page.name}}</a>
         </div>
     </div>
   </header>
     {% include collection-title.html %}
+    <section id="content">
     <div class="container-fluid">
         <div class="row no-gutter">
           <div class="col-lg-4 col-sm-6">
@@ -27,6 +31,7 @@
         </div>
     </div>
     <p> </p>
+  </section>
     {% include aside.html %}
     {% include scripts.html %}
 </body>

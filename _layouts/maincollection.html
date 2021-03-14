@@ -8,11 +8,22 @@
   <header>
     <div class="header-content">
         <div class="header-content-inner">
+          <header>
+            <div class="header-content">
+                <div class="header-content-inner">
+                  <p style="padding-top:200pt"> </p>
+                  <p></p>
+                  <a href="#pijama" class="btn btn-primary btn-xl page-scroll">Ver {{page.title | capitalize}}</a>
+                </div>
+            </div>
+          </header>
         </div>
     </div>
   </header>
-  {% include collection-title.html %}
-  {% include collection-gallery.html %}
+  <section id=content>
+    {% include collection-title.html %}
+    {% include collection-gallery.html %}
+</section>
   {% include contact.html %}
   {% include scripts.html %}
 </body>
