@@ -13,7 +13,18 @@
   </header>
     {% include collection-title.html %}
     <div class="container-fluid">
-      <img src="{{ page.main_image }}" class="img-responsive" alt="">
+        <div class="row no-gutter">
+          <div class="col-lg-4 col-sm-6">
+            <img src="{{ page.main_image }}" class="img-responsive" alt="">
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="col-lg-4 col-sm-6">
+            <p> {{content}} </p>
+          </div>
+        </div>
     </div>
     {% include aside.html %}
     {% include scripts.html %}
