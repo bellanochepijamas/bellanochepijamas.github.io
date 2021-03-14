@@ -1,4 +1,14 @@
 <section id="pijamaportfolio">
+  <div class="container-fluid">
+          <div class="row no-gutter">
+  		{% for curr_col in site.collections %}
+  			{{curr_col.label}}
+        {% assign name = curr_col.label %}
+        {{site.[name]}}
+        {{site[name]}}
+  		{% endfor %}
+          </div>
+      </div>
 <div class="container-fluid">
         <div class="row no-gutter">
 		{% assign current_col = page.col_name %}
@@ -45,7 +55,7 @@
         </div>
         <div class="container-fluid">
                 <div class="row no-gutter">
-              {% for pijama in site.1mujeres %}
+              {% for pijama in site.mujeres %}
                       <div class="col-lg-4 col-sm-6">
                 {{pijama}}
                           <a href="{{ current_col.main_page }}{{ pijama.name }}" class="portfolio-box">
