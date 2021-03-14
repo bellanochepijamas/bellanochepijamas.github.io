@@ -16,24 +16,24 @@ instagram_username: bellanochepijamas
 markdown: kramdown
 
 collections:
-  -1mujeres:
+  1mujeres:
     output: false
     main_image: /img/portfolio/mainmujeres.png
     main_page: /mujeres/
     name: Mujeres
-  -2hombres:
+  2hombres:
     output: false
     main_image: /img/portfolio/mainhombres.jpeg
     main_page: /hombres/
     name: Hombres
     permalink: /hombres/:name
-  -3ninos:
+  3ninos:
     output: true
     main_image: /img/portfolio/mainninos.jpeg
     main_page: /ninos/
     name: Kids
     permalink: /ninos/:name
-  -4ropadecama:
+  4ropadecama:
     output: true
     main_image: /img/portfolio/mainropacama.jpeg
     main_page: /ropacama/
