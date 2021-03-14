@@ -1,8 +1,8 @@
 <section id="pijamaportfolio">
 <div class="container-fluid">
-        <div class="row no-gutter">
+    <div class="row no-gutter">
 		{% assign current_col = page.col_name %}
-			{% for pijama in site.[current_col] %}
+			     {% for pijama in site.[current_col] %}
               <div class="col-lg-4 col-sm-6">
                   <a href="{{ current_col.main_page }}{{ pijama.name }}" class="portfolio-box">
                       <img src="/img/portfolio{{ current_col.main_page }}{{ pijama.main_image }}" class="img-responsive" alt="">
@@ -15,8 +15,7 @@
                       </div>
                   </a>
               </div>
-
-		{% endfor %}
+		     {% endfor %}
         </div>
     </div>
 
