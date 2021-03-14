@@ -4,7 +4,8 @@
 {% include head.html %}
 
 <body id="page-top">
-  {% include nav-item.html toppage=page.collection.main_page topname=page.collection.name %}
+  {% assign coleccion = page.collection %}
+  {% include nav-item.html toppage=site.[coleccion].main_page topname=site.[coleccion].name %}
   <header>
     <div class="header-content">a
         <div class="header-content-inner">
