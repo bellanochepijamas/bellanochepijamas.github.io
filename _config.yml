@@ -26,16 +26,13 @@ collections:
     main_image: /img/portfolio/mainhombres.jpeg
     main_page: /hombres/
     name: Hombres
-    permalink: /hombres/:name
   3ninos:
     output: true
     main_image: /img/portfolio/mainninos.jpeg
     main_page: /ninos/
     name: Kids
-    permalink: /ninos/:name
   4ropadecama:
     output: true
     main_image: /img/portfolio/mainropacama.jpeg
     main_page: /ropacama/
     name: Ropa de Cama
-    permalink: /ropacama/:name

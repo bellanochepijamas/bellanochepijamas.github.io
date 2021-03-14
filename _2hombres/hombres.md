@@ -1,6 +1,7 @@
 ---
 layout: item
 title: Hombres
-name: hombres
-main_image: pijama2.png
+name: cuadros
+main_image: /img/portfolio/hombres/pijama2.jpeg
+permalink: /hombres/cuadros
 ---
