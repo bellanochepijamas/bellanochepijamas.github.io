@@ -1,18 +1,7 @@
 <section id="pijamaportfolio">
-  <div class="container-fluid">
-          <div class="row no-gutter">
-  		{% for curr_col in site.collections %}
-  			{{curr_col.label}}
-        {% assign name = curr_col.label %}
-        {{site.[name]}}
-        {{site[name]}}
-  		{% endfor %}
-          </div>
-      </div>
 <div class="container-fluid">
         <div class="row no-gutter">
 		{% assign current_col = page.col_name %}
-    {{current_col}}
 			{% for pijama in site.[current_col] %}
               <div class="col-lg-4 col-sm-6">
 				{{pijama}}
@@ -31,46 +20,5 @@
 		{% endfor %}
         </div>
     </div>
-    <div class="container-fluid">
-            <div class="row no-gutter">
-    		{% assign current_col = page.title %}
-        {{current_col}}
-    			{% for pijama in site[current_col] %}
-                  <div class="col-lg-4 col-sm-6">
-    				{{pijama}}
-                      <a href="{{ current_col.main_page }}{{ pijama.name }}" class="portfolio-box">
-                          <img src="/img/portfolio{{ current_col.main_page }}{{ pijama.main_image }}" class="img-responsive" alt="">
-                          <div class="portfolio-box-caption">
-                              <div class="portfolio-box-caption-content">
-                                  <div class="project-category text-faded">
-                                      {{ pijama.name }}
-                                  </div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-
-    		{% endfor %}
-            </div>
-        </div>
-        <div class="container-fluid">
-                <div class="row no-gutter">
-              {% for pijama in site.mujeres %}
-                      <div class="col-lg-4 col-sm-6">
-                {{pijama}}
-                          <a href="{{ current_col.main_page }}{{ pijama.name }}" class="portfolio-box">
-                              <img src="/img/portfolio{{ current_col.main_page }}{{ pijama.main_image }}" class="img-responsive" alt="">
-                              <div class="portfolio-box-caption">
-                                  <div class="portfolio-box-caption-content">
-                                      <div class="project-category text-faded">
-                                          {{ pijama.name }}
-                                      </div>
-                                  </div>
-                              </div>
-                          </a>
-                      </div>
-
-            {% endfor %}
-                </div>
-            </div>
+  
 </section>
