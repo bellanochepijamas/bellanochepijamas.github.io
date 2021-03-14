@@ -3,7 +3,7 @@
         <div class="row no-gutter">
 		{% for collection in site.collections %}
                {% if collection.name == page.title %}
-			{% for pijama in collection %}
+			{% for pijama in collection.docs %}
               <div class="col-lg-4 col-sm-6">
 				{{pijama}}
                   <a href="{{ collection.main_page }}{{ pijama.name }}" class="portfolio-box">
