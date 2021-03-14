@@ -4,7 +4,8 @@
 		{% assign current_col = page.col_name %}
 			     {% for pijama in site.[current_col] %}
               <div class="col-lg-4 col-sm-6">
-                {% assign homelink = site.[current_col].main_page %}
+                {% assign colobj = site.[current_col] %}
+                {% assign homelink = colobj.main_page %}
                 {{ homelink }}
                 {% assign pijamalink = pijama.main_image %}
                 {% assign pijamaimg = homelink | append: pijamalink %}
