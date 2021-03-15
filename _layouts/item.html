@@ -6,8 +6,10 @@
 <body id="page-top">
   {% assign coleccion = page.collection %}
   {{site.[coleccion]}}
+  {{page.collection}}
+  {{coleccion}}
   {% assign current_col = site.[coleccion] %}
-  {% include nav-item.html toppage=current_col.main_page topname=current_col.name %}
+  {% include nav-item.html toppage=current_col.main_page topname=page.collection %}
   <header>
     <div class="header-content">a
         <div class="header-content-inner">
@@ -28,8 +30,10 @@
             {{content}}
           </div>
           <div class="col-lg-4 col-sm-6">
-            <i class="fa fa-4x fa-usd wow bounceIn text-primary" data-wow-delay=".1s"></i>
-            <h3>Precio: $70 000</h3>
+            <div class="service-box">
+              <i class="fa fa-4x fa-usd wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              <h3>Precio: $70 000</h3>
+            </div>
           </div>
         </div>
     </div>
