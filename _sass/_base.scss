@@ -182,7 +182,7 @@ header {
         }
     }
     @media (min-width: 50px) {
-        min-height: 40%;
+        min-height: 50%;
         .header-content {
             position: absolute;
             top: 50%;
@@ -199,6 +199,9 @@ header {
                     max-width: 100%;
                     margin-left: auto;
                     margin-right: auto;
+                }
+                btn {
+                  align: center;
                 }
             }
         }
