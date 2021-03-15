@@ -8,4 +8,3 @@ aux_image: /img/portfolio/mujeres/malva.png
 desc: Malva es una pijama para ti
 permalink: /mujeres/malva/
 ---
-There should be content
