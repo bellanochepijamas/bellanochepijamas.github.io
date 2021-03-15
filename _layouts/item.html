@@ -4,7 +4,8 @@
 {% include head.html %}
 
 <body id="page-top">
-  {% include nav-item.html toppage=page.url topname=page.collection %}
+  {% assign coleccion = site.collections | where_exp:"coleccion", "coleccion.label == page.collection" %}
+  {% include nav-item.html toppage=coleccion.main_page topname=coleccion.name %}
   <header>
     <div class="header-content">a
         <div class="header-content-inner">
