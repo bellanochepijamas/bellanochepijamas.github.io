@@ -5,7 +5,9 @@
 
 <body id="page-top">
   {% assign coleccion = page.collection %}
-  {% include nav-item.html toppage=site.[coleccion].main_page topname=site.[coleccion].name %}
+  {{site.[coleccion]}}
+  {% assign current_col = site.[coleccion] %}
+  {% include nav-item.html toppage=current_col.main_page topname=current_col.name %}
   <header>
     <div class="header-content">a
         <div class="header-content-inner">
