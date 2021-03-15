@@ -7,9 +7,9 @@
   {% assign coleccion = page.collection %}
   Site {{site.[coleccion]}}
   Page {{page.collection}}
-  Coleccion {{coleccion}}
   {% assign current_col = site.[coleccion] %}
-  {% include nav-item.html toppage=current_col.main_page topname=page.collection %}
+  Coleccion {{current_col}}
+  {% include nav-item.html toppage=coleccion.main_page topname=page.collection %}
   <header>
     <div class="header-content">a
         <div class="header-content-inner">
