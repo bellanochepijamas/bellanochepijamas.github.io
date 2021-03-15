@@ -37,6 +37,6 @@ collections:
   ropacama:
     output: true
     main_image: /img/portfolio/mainropacama.jpeg
-    main_page: /ropacama/
+    main_page: /ropadecama/
     name: Ropa de Cama
     sequence: 4
