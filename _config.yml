@@ -16,23 +16,27 @@ instagram_username: bellanochepijamas
 markdown: kramdown
 
 collections:
-  1mujeres:
+  mujeres:
     output: true
     main_image: /img/portfolio/mainmujeres.png
     main_page: /mujeres/
     name: Mujeres
-  2hombres:
+    sequence: 1
+  hombres:
     output: true
     main_image: /img/portfolio/mainhombres.jpeg
     main_page: /hombres/
     name: Hombres
-  3ninos:
+    sequence: 2
+  ninos:
     output: true
     main_image: /img/portfolio/mainninos.jpeg
     main_page: /ninos/
     name: Kids
-  4ropadecama:
+    sequence: 3
+  ropacama:
     output: true
     main_image: /img/portfolio/mainropacama.jpeg
     main_page: /ropacama/
     name: Ropa de Cama
+    sequence: 4
