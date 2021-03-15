@@ -1,7 +1,7 @@
 <section class="no-padding" id="portfolio">
+  {% assign collections = site.collections | sort: 'sequence' %}
     <div class="container-fluid">
         <div class="row no-gutter">
-          {% assign collections = site.collections | sort: 'sequence' %}
            {% for collection in collections  %}
               <div class="col-lg-4 col-sm-6">
                   <a href="{{ collection.main_page }}#content" class="portfolio-box">
