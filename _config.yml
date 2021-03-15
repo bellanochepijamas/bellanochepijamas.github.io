@@ -21,22 +21,22 @@ collections:
     main_image: /img/portfolio/mainmujeres.png
     main_page: /mujeres/
     name: Mujeres
-    sequence: 1
+    sequence: 0
   hombres:
     output: true
     main_image: /img/portfolio/mainhombres.jpeg
     main_page: /hombres/
     name: Hombres
-    sequence: 2
+    sequence: 1
   ninos:
     output: true
     main_image: /img/portfolio/mainninos.jpeg
     main_page: /ninos/
     name: Kids
-    sequence: 3
+    sequence: 2
   ropacama:
     output: true
     main_image: /img/portfolio/mainropacama.jpeg
     main_page: /ropadecama/
     name: Ropa de Cama
-    sequence: 4
+    sequence: 3
