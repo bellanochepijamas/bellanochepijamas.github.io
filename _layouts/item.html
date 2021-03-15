@@ -5,9 +5,9 @@
 
 <body id="page-top">
   {% assign coleccion = page.collection %}
-  {{site.[coleccion]}}
-  {{page.collection}}
-  {{coleccion}}
+  Site {{site.[coleccion]}}
+  Page {{page.collection}}
+  Coleccion {{coleccion}}
   {% assign current_col = site.[coleccion] %}
   {% include nav-item.html toppage=current_col.main_page topname=page.collection %}
   <header>
@@ -30,13 +30,11 @@
             <img src="{{ page.aux_image }}" class="img-responsive" alt="">
           </div>
           <div class="col-lg-4 col-sm-6">
-            {{content}}
-          </div>
-          <div class="col-lg-4 col-sm-6">
             <div class="service-box">
               <i class="fa fa-4x fa-usd wow bounceIn text-primary" data-wow-delay=".1s"></i>
               <h3>Precio: $70 000</h3>
-            </div>
+             <p class="text-muted">  {{page.desc}} </p>
+           </div>
           </div>
         </div>
     </div>
