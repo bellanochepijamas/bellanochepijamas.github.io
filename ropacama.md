@@ -1,6 +1,6 @@
 ---
 layout: maincollection
 title: Ropa de Cama
-permalink: /ropacama/
-col_name: 4ropadecama
+permalink: /ropadecama/
+col_name: ropadecama
 ---
