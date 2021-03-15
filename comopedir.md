@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cómo pedir
-permalink: /pedir/
+permalink: /comopedir/
 ---
 
 - ¿Cómo pedir tu pijama {{item}}?
