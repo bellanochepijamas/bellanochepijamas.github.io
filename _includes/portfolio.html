@@ -1,7 +1,8 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
-           {% for collection in site.collections | sort: 'sequence' %}
+          {% assign collections = site.collections | sort: 'sequence' %}
+           {% for collection in collections  %}
               <div class="col-lg-4 col-sm-6">
                   <a href="{{ collection.main_page }}#content" class="portfolio-box">
                       <img src="{{ collection.main_image }}" class="img-responsive" alt="">
