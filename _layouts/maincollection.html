@@ -8,18 +8,13 @@
   <header>
     <div class="header-content">
         <div class="header-content-inner">
-          <header>
-            <div class="header-content">
-                <div class="header-content-inner">
-                  <p style="padding-top:200pt"> </p>
-                  <p></p>
-                  <a href="#content" class="btn btn-primary btn-xl page-scroll text-center">Ver {{page.title | capitalize}}</a>
-                </div>
-            </div>
-          </header>
+          <p style="padding-top:200pt"> </p>
+          <p></p>
+          <a href="#content" class="btn btn-primary btn-xl page-scroll text-center">Ver {{page.title | capitalize}}</a>
         </div>
     </div>
   </header>
+
   <section id=content>
     {% include collection-title.html %}
     {% include collection-gallery.html %}
