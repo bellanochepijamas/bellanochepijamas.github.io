@@ -8,8 +8,7 @@
           </div>
       </div>
         <div class="row no-gutter">
-           {% for collection in collections  %}
-           {% if collection.name != nil and collection.name != blank % }
+           {% for collection in site.collections  %}
               <div class="col-lg-3 col-sm-6">
                   <a href="{{ collection.main_page }}#content" class="portfolio-box">
                       <img src="{{ collection.main_image }}" class="img-responsive" alt="">
@@ -27,7 +26,6 @@
                       </div>
                   </a>
               </div>
-              {% endif %}
             {% endfor %}
         </div>
     </div>
